@@ -45,7 +45,7 @@ const generateMockData = (): Truck[] => {
   return trucks;
 };
 
-const LOGO_URL = "https://pplx-res.cloudinary.com/image/upload/v1740520626/user_uploads/hldBDrhHROkAZXk/image.jpg";
+const LOGO_URL = "/public/Orca.jpg";
 
 export default function App() {
   const [view, setView] = useState<'landing' | 'dashboard'>('landing');
@@ -101,12 +101,9 @@ export default function App() {
   // Landing Page Component
   const LandingPage = () => (
     <div className="min-h-screen bg-white flex flex-col font-sans text-slate-900">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 w-full py-4 px-8 flex justify-between items-center max-w-7xl mx-auto transition-all">
-        <div className="flex items-center gap-3">
-          <img src={LOGO_URL} alt="Orca Cargo Logo" className="h-10 w-10 rounded-full object-cover border-2 border-orca-900" />
-          <span className="text-xl font-bold tracking-tight text-orca-900">ORCA CARGO</span>
-        </div>
+      
+      {/* Header - UPDATED: Removed Logo from here, changed alignment to justify-end */}
+      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 w-full py-4 px-8 flex justify-end items-center max-w-7xl mx-auto transition-all gap-8">
         <nav className="hidden md:flex gap-8 font-medium text-slate-600 text-sm">
           <a href="#solutions" className="hover:text-orca-600 transition">Solutions</a>
           <a href="#hardware" className="hover:text-orca-600 transition">Hardware</a>
@@ -123,6 +120,16 @@ export default function App() {
       {/* Hero */}
       <main className="flex-1 flex flex-col md:flex-row items-center max-w-7xl mx-auto px-8 py-20 gap-16">
         <div className="flex-1 space-y-8">
+          
+          {/* UPDATED: Added Large Logo Here */}
+          <div className="mb-6">
+            <img 
+              src={LOGO_URL} 
+              alt="Orca Cargo Logo" 
+              className="h-32 w-32 rounded-full object-cover border-4 border-white shadow-2xl" 
+            />
+          </div>
+
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 rounded-full text-sm font-semibold border border-blue-100">
             <SparklesIcon size={16} />
             <span>AI-Powered Logistics Platform</span>
