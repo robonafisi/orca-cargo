@@ -269,7 +269,7 @@ export default function App() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed">
-            Fuel accounts for over 30% of your total operation costs, yet most fleet managers rely on imprecise dashboard gauges and paper receipts to track it.
+            Fuel accounts for over 30% of your total operation costs, yet most fleet managers rely on impercise and outdated sensor kits to track it.
           </p>
           
           <div className="flex gap-4 pt-4">
@@ -423,7 +423,7 @@ export default function App() {
                 <p className="text-slate-400 text-sm">For small fleets just getting started.</p>
               </div>
               <div className="mb-8">
-                <span className="text-4xl font-bold text-white">$20</span>
+                <span className="text-4xl font-bold text-white">$10</span>
                 <span className="text-slate-400"> /device/mo</span>
               </div>
               <ul className="space-y-4 mb-8 flex-1">
