@@ -381,7 +381,7 @@ export default function App() {
                 <h2 className="text-blue-600 font-bold tracking-wide uppercase text-lg mb-3">The Hardware</h2>
                 <h3 className="text-4xl font-bold text-slate-900 mb-6">Meet Orca Sense. <br/>Install in minutes, save time and money for years.</h3>
                 <p className="text-slate-600 text-lg mb-6">
-                  Our sensor has a water proof housing and uses ultra low power, making it easy to install, maintain, and extremely safe. Our sensors attach to the top of any fuel tank and can be installed in minutes. Ruggedized for the harshest road conditions.
+                  Our sensor has a water proof housing and uses ultra low power, making it easy to install, to maintain, and extremely safe. Our sensors attach to the top of any fuel tank and can be installed in minutes. Ruggedized for the harshest road conditions.
                 </p>
               </div>
               
@@ -427,7 +427,7 @@ export default function App() {
                 <span className="text-slate-400"> /device/mo</span>
               </div>
               <ul className="space-y-4 mb-8 flex-1">
-                {["Real-time tracking", "Basic fuel reports", "Email alerts", "Mobile App access"].map((item, i) => (
+                {["Real-time tracking", "Basic fuel reports", "Mobile app access"].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-slate-300 text-sm">
                     <Check size={16} className="text-blue-400" /> {item}
                   </li>
@@ -459,7 +459,7 @@ export default function App() {
                 <span className="text-slate-500"> /device/mo</span>
               </div>
               <ul className="space-y-4 mb-8 flex-1">
-                {["Everything in Starter", "Fuel optimization Model", "Theft Prediction Model", "Driver Behavior Score", "Unlimited History"].map((item, i) => (
+                {["Everything in starter", "Fuel optimization model", "Theft prediction model", "Driver behavior score", "Unlimited history"].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-slate-700 text-sm">
                     <div className="bg-blue-100 p-0.5 rounded-full">
                       <Check size={14} className="text-blue-600" />
