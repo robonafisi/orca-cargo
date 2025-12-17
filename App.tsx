@@ -47,7 +47,7 @@ const generateMockData = (): Truck[] => {
   return trucks;
 };
 
-const LOGO_URL = "/public/Orca.jpg";
+const LOGO_URL = "/Orca.jpg";
 const destinationUrl1 = 'https://cal.com/orca-trucks/30min';
 
 // Helper function retained from original code for the Landing page
@@ -146,7 +146,7 @@ export default function App() {
           <div className="flex flex-col items-center mb-10">
             <img 
               src={LOGO_URL} 
-              alt="Orca Cargo Logo" 
+              alt="Orca Trucks Logo" 
               className="h-24 w-24 rounded-full object-contain bg-slate-50 border border-slate-100 shadow-md" 
             />
             <h1 className="text-3xl font-bold text-slate-900 mt-4">Fleet Login</h1>
