@@ -1,2 +1,2 @@
-Website for Orca Trucks
-# orca-trucks
+Website for Orca Tech
+# orca-tech
